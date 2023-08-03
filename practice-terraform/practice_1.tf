@@ -1,10 +1,6 @@
-variable "fruits" {
-  default = [
-   "apple"
-    "banana"
-]
+variable "fruit" {
+  default = apple
 }
-
 output "fruit_name" {
-  value = var.fruits_first["0"]
+  value= var.fruit
 }
