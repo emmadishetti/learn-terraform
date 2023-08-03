@@ -5,8 +5,7 @@ variable "fruits_stock_with_price" {
       price =50
     }
     banana = {
-      stock
-      =200
+      stock =200
       price =100
     }
     }
