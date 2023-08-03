@@ -5,6 +5,6 @@ variable "fruits" {
     ]
 }
 
-output "fruits" {
-  value= var.fruits.first[0]
+output "fruits_first" {
+  value= var.fruits[0]
 }
