@@ -1,5 +1,5 @@
 data "aws_ami" "ami" {
-  executable_users = ["amazon"]
+  executable_users = ["self"]
   most_recent      = true
   name_regex       = "centos-*"
   owners           = ["576740149353"]
