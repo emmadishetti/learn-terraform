@@ -7,7 +7,7 @@ variable "security_groups" {
 }
 
 variable "zone_id" {
-  default = "Z0021413JFIQEJP9ZO9Z"
+  default = "Z009544921RTWVTZ5968R"
 }
 
 variable "components" {
