@@ -16,6 +16,6 @@ resource "aws_route53_record" "record" {
   name    = "${var.name}-dev.devops7874.online"
   type    = "A"
   ttl     = 30
-  records = aws_instance.instance.private_ip
+  records = [aws_instance.instance.private_ip]
 }
 
