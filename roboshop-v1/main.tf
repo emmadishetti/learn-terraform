@@ -5,7 +5,7 @@ variable "security_groups" {
   default = [ "sg-0f56c7274c7d31689" ]
 }
 variable "instance_type" {
-  default = t2.micro
+  default = "t2.micro"
 }
 variable "zone_id" {
   default = "Z009544921RTWVTZ5968R"
