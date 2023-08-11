@@ -3,7 +3,7 @@ variable "ami" {
 }
 
 variable "security_groups" {
-  default = [ "sg-0dee954b08055e577" ]
+  default = [ "sg-0f56c7274c7d31689" ]
 }
 
 variable "zone_id" {
